@@ -1,0 +1,51 @@
+.tro {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.tro img {
+    width: 100%;
+    height: 540px;
+}
+
+.tro .overlay {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; 
+    text-align: center;
+    font-size: 50px;
+}
+
+.tro p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.tro .button-container {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 80px;
+}
+
+.tro .intro-button {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.tro .intro-button:hover {
+    background-color: #204E51;
+}

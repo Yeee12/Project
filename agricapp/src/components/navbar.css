@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    display: flex; 
+    padding: 0; 
+    margin: 0;
+}
+
+.nav-links ul a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+
+.nav-links ul a:hover {
+    text-decoration: underline;
+    color:#204E51;
+}
+
+.nav-links .nav-button {
+    background-color:#204E51;
+    ;
+    color: #ffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
